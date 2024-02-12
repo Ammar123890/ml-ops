@@ -32,8 +32,20 @@
 
     git checkout dev
     git checkout test
-    
 
+# Changing main.py in dev branch use commands
+    git add . 
+    git commit -m "dev"
+    git push origin head
+
+        ## head is use for the current brach
+
+
+ # Checkout to master and merge with dev
+
+    git checkout master
+    git merge dev
+       
 
 
 
