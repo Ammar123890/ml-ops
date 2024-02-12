@@ -1,8 +1,6 @@
 # create the repo using gh
 
     gh repo create ml-ops --public
-    ✓ Created repository Ammar123890/ml-ops on GitHub
-    https://github.com/Ammar123890/ml-ops
 
 # Initalize the repo
 
@@ -24,4 +22,19 @@
 # Pushing 
    
     git push -u origin master
+
+# Creating two new branches
+
+    git branch dev
+    git branch test
+
+# Switch branches
+
+    git checkout dev
+    git checkout test
+    
+
+
+
+
     
